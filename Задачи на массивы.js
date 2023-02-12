@@ -100,3 +100,5 @@ let miracle = (arr) => {
     return result2
 }
 console.log(miracle(arr10))
+
+//Hi
