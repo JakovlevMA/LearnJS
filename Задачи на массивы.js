@@ -1,4 +1,4 @@
-///1
+/// 1 ///
 let newArr = [];
 let start = 1
 while (start <= 3){
@@ -8,24 +8,29 @@ while (start <= 3){
 console.log(newArr)
 
 console.log ('========================================================================================================')
-/// 2
+/// 2 ///
+
 let newArr2 = [1, 2, 3]
 newArr2.reverse()
 console.log(newArr2)
+
 console.log ('========================================================================================================')
-/// 3
+/// 3 ///
+
 let array =  [0, 1, false, 2, undefined, '', 3, null, 'a', -0.2, {}, []]
 let newToArr = array.filter(item => item > 0 || item === Array || item < 0 || (typeof item === 'string' && item !== '') ||
     (typeof item === 'object' && item !== null))
 console.log(newToArr)
 
 console.log ('========================================================================================================')
-/// 4
+/// 4 ///
+
 let arrayOfObject = [['a', 1], ['b', 2]]
 console.log(Object.fromEntries(arrayOfObject))
-console.log ('========================================================================================================')
 
-/// 5
+console.log ('========================================================================================================')
+/// 5 ///
+
 let minArray = [1, 2, 3, 1, 2, 2, 1]
 let onceElem = (arr) => {
     return arr.filter (item => arr.indexOf(item) === arr.lastIndexOf(item))
@@ -33,7 +38,7 @@ let onceElem = (arr) => {
 console.log(onceElem(minArray))
 
 console.log ('========================================================================================================')
-/// 6
+/// 6 ///
 
 let array2 = [1, 2, 3, 1, 2]
 let result = (array) => {
@@ -45,7 +50,7 @@ let result = (array) => {
 console.log(result(array2))
 
 console.log ('========================================================================================================')
-/// 7
+/// 7 ///
 
 let array7 = [1, 2, 3]
 let array77 = [1, 2, 3]
@@ -61,7 +66,7 @@ let comparison = (arr1, arr2) => {
 console.log(comparison(array7, array77))
 
 console.log ('========================================================================================================')
-/// 8
+/// 8 ///
 
 let arr8 = [[1, 2, [3, 4, [5]]]]
 let result2
@@ -72,7 +77,7 @@ let oneDimensionalArr = (arr) => {
 console.log(oneDimensionalArr(arr8))
 
 console.log ('========================================================================================================')
-/// 9
+/// 9 ///
 
 let arr9 = []
 let arr99 = []
@@ -86,7 +91,7 @@ let DubleArr = (array, step) => {
 console.log(DubleArr([1, 2, 3, 4, 5, 6, 7], 2))
 
 console.log ('========================================================================================================')
-/// 10
+/// 10 ///
 
 let arr10 = [[1, 2], [2, 3],]
 let miracle = (arr) => {
